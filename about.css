@@ -1,0 +1,127 @@
+p{
+
+    font-family: lato;
+    font-size: 1.9rem;
+    color: #deeaf5;
+    ; /*#1D1622*/
+    font-weight:500;
+
+}
+
+
+  
+.ml16 .letter {
+
+    display: inline-block; 
+    line-height: 1em; 
+  
+
+ }
+
+ 
+/*   h1, .ml16{
+    font-family: lato;
+    font-size: 5rem;
+    color: #deeaf5;
+    cursor: default; 
+    font-weight: 900;
+ 
+    z-index: 100000 !important;
+
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px orange, .7px .7px orange, .9px .9px orange, 1.1px 1.1px orange, 1.3px 1.3px orange, 1.5px 1.5px orange, 1.7px 1.7px orange, 2.0px 2.0px orange, 2.2px 2.2px orange, 2.4px 2.4px orange, 2.6px 2.6px orange, 2.8px 2.8px orange, 3px 3px orange, 3.2px 3.2px orange, 3.4px 3.4px orange, 3.6px 3.6px orange    !important;
+
+
+   
+}
+
+*/
+
+a{
+
+text-decoration: none;
+color: #2E4055;
+font-size: 2.8rem;
+transition: .5s ease;
+margin-right:3%;
+}
+
+a:hover{
+color:   ; /* #455E7E  #f6b93b*/
+cursor: default;
+}
+#linked:hover{
+    color:  #235094 ;
+}
+
+#insta:hover{
+    color:  #f17979 ;
+}
+
+#codepen:hover{
+    color:   #73a0d8;
+}
+#mail:hover{
+    color:  #c3de8d;
+}
+
+a.more.back{
+    font-size: .75rem !important;
+    padding: .45rem !important;
+    margin-right:.7%;
+    text-align: center !important;
+}
+a.more.nohov{
+    font-size: .75rem !important;
+    padding: .45rem !important;
+    margin-right:.7%;
+    text-align: center !important;
+}
+a.more.nohov:hover{
+    color: orange !important;
+    background: transparent;
+       border-color: orange !important;
+ 
+       transition: none;
+   
+}
+
+a.more{
+font-family:lato;
+    font-size: .8rem;
+    margin-right:none;
+border-radius: 25px;
+    color: orange !important;
+
+text-decoration: none;
+background: transparent;
+
+padding: .8rem;
+border: .07rem solid orange !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+
+}
+
+a.more:hover{
+ color:white !important;
+background: orange;
+border-color: orange !important;
+transition: all 0.4s ease 0s;
+
+}
+
+h3{
+line-height: 2rem;
+    font-family: lato;
+    font-size: 1.5rem;
+    color:#deeaf5; /* black, #1D1622*/
+    font-weight:350;
+
+}
+h4{
+    font-family: lato;
+    color:#deeaf5;
+    font-size: .99rem;
+    font-weight: 270;
+
+}

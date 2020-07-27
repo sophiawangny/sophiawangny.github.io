@@ -1,0 +1,406 @@
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+body { 
+   
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+
+
+ .letter1{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px orange, .7px .7px orange, .9px .9px orange, 1.1px 1.1px orange, 1.3px 1.3px orange, 1.5px 1.5px orange, 1.7px 1.7px orange, 2.0px 2.0px orange, 2.2px 2.2px orange, 2.4px 2.4px orange, 2.6px 2.6px orange, 2.8px 2.8px orange, 3px 3px orange, 3.2px 3.2px orange, 3.4px 3.4px orange, 3.6px 3.6px orange    !important;
+    display: inline-block; 
+    line-height: 1em; 
+  }
+
+
+
+#letter1:hover{
+
+   
+    text-shadow: -1px -1px 0 orange, 1px -1px 0 orange, -1px 1px 0 orange, 1px 1px 0 orange;
+
+}
+
+
+
+.letter2{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px #c3de8d, .7px .7px #c3de8d, .9px .9px #c3de8d, 1.1px 1.1px #c3de8d, 1.3px 1.3px #c3de8d, 1.5px 1.5px #c3de8d, 1.7px 1.7px #c3de8d, 2.0px 2.0px #c3de8d, 2.2px 2.2px #c3de8d, 2.4px 2.4px #c3de8d, 2.6px 2.6px #c3de8d, 2.8px 2.8px #c3de8d, 3px 3px #c3de8d, 3.2px 3.2px #c3de8d, 3.4px 3.4px #c3de8d, 3.6px 3.6px #c3de8d !important;
+    display: inline-block; 
+    line-height: 1em; 
+  }
+
+
+
+
+.letter2:hover{
+ color: #c3de8d !important;
+   /*  text-shadow: -1px -1px 0 #c3de8d, 1px -1px 0 #c3de8d, -1px 1px 0 #c3de8d, 1px 1px 0 #c3de8d; */
+
+}
+
+
+.letter3{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px #fd4352, .7px .7px #fd4352, .9px .9px #fd4352, 1.1px 1.1px #fd4352, 1.3px 1.3px #fd4352, 1.5px 1.5px #fd4352, 1.7px 1.7px #fd4352, 2.0px 2.0px #fd4352, 2.2px 2.2px #fd4352, 2.4px 2.4px #fd4352, 2.6px 2.6px #fd4352, 2.8px 2.8px #fd4352, 3px 3px #fd4352, 3.2px 3.2px #fd4352, 3.4px 3.4px #fd4352, 3.6px 3.6px #fd4352    !important;
+    display: inline-block; 
+    line-height: 1em; 
+  }
+.letter3:hover{
+    /* color: #fd4352; */
+    /* text-shadow: -1px -1px 0 #fd4352, 1px -1px 0 #fd4352, -1px 1px 0 #fd4352, 1px 1px 0 #fd4352; */
+
+}
+
+
+.letter4{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px #6a63a1, .7px .7px #6a63a1, .9px .9px #6a63a1, 1.1px 1.1px #6a63a1, 1.3px 1.3px #6a63a1, 1.5px 1.5px #6a63a1, 1.7px 1.7px #6a63a1, 2.0px 2.0px #6a63a1, 2.2px 2.2px #6a63a1, 2.4px 2.4px #6a63a1, 2.6px 2.6px #6a63a1, 2.8px 2.8px #6a63a1, 3px 3px #6a63a1, 3.2px 3.2px #6a63a1, 3.4px 3.4px #6a63a1, 3.6px 3.6px #6a63a1    !important;
+    display: inline-block; 
+    line-height: 1em; 
+  }
+.letter4:hover{
+   /*  color: #6a63a1; */
+   /* text-shadow: -1px -1px 0 #6a63a1, 1px -1px 0 #6a63a1, -1px 1px 0 #6a63a1, 1px 1px 0 #6a63a1; */
+
+}
+
+
+.letter5{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px #7bcdff, .7px .7px #7bcdff, .9px .9px #7bcdff, 1.1px 1.1px #7bcdff, 1.3px 1.3px #7bcdff, 1.5px 1.5px #7bcdff, 1.7px 1.7px #7bcdff, 2.0px 2.0px #7bcdff, 2.2px 2.2px #7bcdff, 2.4px 2.4px #7bcdff, 2.6px 2.6px #7bcdff, 2.8px 2.8px #7bcdff, 3px 3px #7bcdff, 3.2px 3.2px #7bcdff, 3.4px 3.4px #7bcdff, 3.6px 3.6px #7bcdff    !important;
+    display: inline-block; 
+    line-height: 1em; 
+  }
+.letter5:hover{
+   /*  color: #7bcdff; */
+   /* text-shadow: -1px -1px 0 #7bcdff, 1px -1px 0 #7bcdff, -1px 1px 0 #7bcdff, 1px 1px 0 #7bcdff */
+
+}
+
+
+.letter6{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px #73a0d8, .7px .7px #73a0d8, .9px .9px #73a0d8, 1.1px 1.1px #73a0d8, 1.3px 1.3px #73a0d8, 1.5px 1.5px #73a0d8, 1.7px 1.7px #73a0d8, 2.0px 2.0px #73a0d8, 2.2px 2.2px #73a0d8, 2.4px 2.4px #73a0d8, 2.6px 2.6px #73a0d8, 2.8px 2.8px #73a0d8, 3px 3px #73a0d8, 3.2px 3.2px #73a0d8, 3.4px 3.4px #73a0d8, 3.6px 3.6px #73a0d8   !important;
+    display: inline-block; 
+    line-height: 1em; 
+  }
+.letter6:hover{
+    /* color: #73a0d8; */
+   /* text-shadow: -1px -1px 0 #73a0d8, 1px -1px 0 #73a0d8, -1px 1px 0 #73a0d8, 1px 1px 0 #73a0d8 !important; */
+
+}
+
+
+
+
+
+  
+.ml16 .letter {
+
+    display: inline-block; 
+    line-height: 1em; 
+  
+
+ }
+
+ 
+h1, .ml16{
+    font-family: lato;
+    font-size: 5rem;
+    color: #deeaf5; /*#2E4055*/
+    cursor: default; 
+    font-weight: 900;
+ 
+    z-index: 100000 !important;
+
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, .5px .5px orange, .7px .7px orange, .9px .9px orange, 1.1px 1.1px orange, 1.3px 1.3px orange, 1.5px 1.5px orange, 1.7px 1.7px orange, 2.0px 2.0px orange, 2.2px 2.2px orange, 2.4px 2.4px orange, 2.6px 2.6px orange, 2.8px 2.8px orange, 3px 3px orange, 3.2px 3.2px orange, 3.4px 3.4px orange, 3.6px 3.6px orange    !important;
+
+
+   
+}
+
+h1:hover{
+    
+ /* color:#314761; */
+}
+h2{
+
+    line-height: 1em; 
+    z-index: -100000 !important;
+    overflow: hidden !important;
+ 
+    font-family: lato;
+    font-size: 5rem;
+    color: #73a0d8; /*not doing anything rn, was gonne be this with opacity 40%*/
+    cursor: default; 
+    font-weight: 900;
+
+    
+   
+}
+::-moz-selection { background-color: #FB363E;  /* #476f30  */
+    color: #fff; } 
+    ::selection { background-color: #FB363E; 
+    color: #fff; }
+
+
+
+#topbuttons {
+    
+    text-align: right;
+    margin-right: .5%;
+    margin-top: 1.4%;
+    text-decoration: none !important;
+    cursor: default; 
+
+}
+#indbuttons{
+    color: #2E4055;/*#314761white*/
+
+
+   font-family: lato, myriad pro;
+    margin-right: 2%;
+    transition: .3s ease;
+    font-size: .95rem;
+    text-decoration: none !important;
+    cursor: default; /*or pointer?    ,#fd4352*/
+}
+#indbuttons:hover{
+    color:orange;
+
+}
+
+
+
+#front{
+  max-width: 33%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top :3%;
+  padding-bottom:7%;
+}
+body{
+    background-color: rgb(3, 19, 29);/*#314761  #455e7e rgb(2, 21, 32) rgb(1, 14, 22)*/
+ 
+}
+
+#blockk{
+    
+}
+    
+/*bruh*/
+
+div.block{
+
+
+   
+}
+div.block, div.block:hover:before{
+    transition:  0.66s ease ; 
+    background-size:100%;
+    width: 100%;
+    max-width: 580px;
+  height: 580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  display: inline-block;
+  background-repeat: no-repeat;
+       
+}
+div.block:hover:before{
+ 
+    background-image:none !important;
+    position:absolute;
+    content:"Codestellation 2020 " ; 
+    z-index: 10000;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+  
+
+    font-family:  lato, nunito-sans, PT Sans, sans-serif, Helvetica;
+    font-weight:bold;
+     font-size: 1.7rem;
+    
+    
+}
+div.block:hover{
+ /*  opacity: 75%; */
+/* opacity: 50%;  */
+/* z-index:-1 !important; */
+text-shadow: none;
+    transform: none;
+   /* background: #ffd18e;   */
+
+}
+
+/*bruh*/
+
+#codestellation, #codestellation:hover:before{
+    background-image:url("images/code.png");
+
+}
+#codestellation:hover:before{
+
+    content:"Codestellation 2020" ; 
+    background:  #766aad   !important; /* #ffbc50    #766ba6*/
+}
+
+#codestellation:hover{
+    /* background: #ffbc50 !important; */
+}
+
+
+
+#forumone, #forumone:hover:before{
+    background-image:url("images/forumone.png");
+
+}
+#forumone:hover:before{
+
+    content:"Forum One" ; 
+    background:#ec2c39 !important;
+}
+
+#forumone:hover{
+    /* background:#ec2c39; */
+}
+
+
+
+
+#posse, #posse:hover:before{
+    background-image:url("images/devonce.png");
+}
+#posse:hover:before{
+    background:#a1ffc4 !important;
+    content:"Posse NYC" ; 
+}
+#posse:hover{
+   /* background:black; */
+}
+
+
+
+#podcast, #podcast:hover:before{
+    background-image:url("images/podcast.png");
+
+}
+#podcast:hover:before{
+    background:#195771 !important;
+    content:"The Real Pandemic" ; 
+}
+#podcast:hover{
+    /* background:#195771; */
+}
+
+
+
+
+
+#leap, #leap:hover:before{
+  
+    background-image:url("images/lea.png");
+}
+#leap:hover:before{
+    background:#d3e2b3  !important;
+    content:"Flyers & Posters" ; 
+}
+#leap:hover{
+    /* background:#d3e2b3;    7094CD d3e2b3 */
+}
+
+
+
+#photos, #photos:hover:before{
+    background-image:url("images/photos.png");
+
+}
+#photos:hover:before{
+    background:#FF5933 !important;
+    content:"Photography" ; 
+   
+}
+#photos:hover{
+    /* background:#d3e2b3;*/ 
+}
+
+
+
+#girls, #girls:hover:before{
+    background-image:url("images/girls4girls.png");
+
+}
+#girls:hover:before{
+    background:#f80a85 !important;
+    content:"Additional work" ; 
+}
+#girls:hover{
+    /* background:#d3e2b3; */
+}
+
+
+#me, #me:hover:before{
+    background-image:url("images/me.png");
+
+}
+#me:hover:before{
+    background:#FFD259 !important;
+    content:"About me" ; 
+}
+#me:hover{
+    /* background:#d3e2b3; */
+}
+
+
+
+
+#bottompad{
+
+    padding:5%;
+}
+
+button{
+   color:#314761; 
+    height: auto;
+    padding:1%;
+    border: none;
+    background: none;
+    text-decoration: none !important;
+
+    font-size: 120%;
+    transition: all .3s;
+    display: inline-block;
+
+
+}
+
+button:hover{
+    color:#539093; 
+    text-shadow: none;
+    transform: none;
+    text-decoration: none !important;
+
+}
+
+
