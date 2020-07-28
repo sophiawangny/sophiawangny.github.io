@@ -185,7 +185,7 @@ a.more.back, a.more.nohov{
     text-align: center;
     float:none !important;
 display: flex !important;
-padding-top:-1%;
+margin-top:-10% !important;
 
     }
 
