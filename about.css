@@ -50,11 +50,11 @@ color:   ; /* #455E7E  #f6b93b*/
 cursor: default;
 }
 #linked:hover{
-    color:  #235094 ;
+    color:  #1d57af ;
 }
 
 #insta:hover{
-    color:  #f17979 ;
+    color:  #c0b9fd ;
 }
 
 #codepen:hover{
@@ -125,3 +125,125 @@ h4{
     font-weight: 270;
 
 }
+
+.photoandicons{
+
+    float:left;
+    margin-right:3%;
+    margin-top:0%;
+}
+
+.secondp{
+
+float:left;
+padding-top:1%;
+display: block;
+text-align:left;
+}
+
+.pickandp2{
+    margin-left:6%;
+    margin-right:6%;
+    display: flex !important;
+    overflow: hidden ;
+}
+
+.facts{
+    margin-left:6%;margin-right:6%;
+}
+
+@media all and (max-width: 450px) { 
+
+.photoandicons{
+    display: none !important;
+    float:none !important;
+    text-align: center;
+    margin-right: none !important;
+    margin-top:5%;
+
+}
+
+h1{
+    font-size: 2.5rem !important;
+    text-align:center !important;
+}
+
+
+p{
+    text-align:center !important;
+    font-size: 1.7rem;
+}
+a.more, #more{
+    text-align: center !important;
+    float: none !important;
+    display: block !important;
+}
+a.more.back, a.more.nohov{
+
+    padding: .35rem !important;
+    margin-top:1.3%;
+    display: inline-block !important;
+   
+}
+
+
+.secondp{
+    text-align: center;
+    float:none !important;
+display: flex !important;
+
+
+    }
+
+ #secondpic{
+ width:100%;
+    max-width:550;
+    height:auto;
+    float: none !important;
+    text-align: center !important;
+
+}
+
+.pickandp2{
+    margin-left: 6% !important;
+
+    margin-right: 6% !important;
+    display: block !important;
+}
+
+
+}
+
+@media all and (min-width: 1429px) { 
+   .pickandp2{
+   margin-top: 3%;
+
+    
+    }
+
+
+    
+    /*
+
+    h1{
+        font-size: 7rem;
+    }
+
+    #secondpic{
+        margin:3%;
+         width:40%;
+           max-width:550;
+           height:auto;
+           float: right !important;
+      
+       }  */
+
+       
+}
+
+@media all and (min-width: 1500px) { 
+    .pickandp2{
+    margin-top: 4%;
+ 
+     }
+    }
