@@ -187,7 +187,13 @@ h2{
 
 }
 
+h4{
+    font-family: lato;
+    color:#deeaf5;
+    font-size: .99rem;
+    font-weight: 270;
 
+}
 
 #front{
   max-width: 33%;

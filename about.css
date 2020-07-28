@@ -118,13 +118,7 @@ line-height: 2rem;
     font-weight:350;
 
 }
-h4{
-    font-family: lato;
-    color:#deeaf5;
-    font-size: .99rem;
-    font-weight: 270;
 
-}
 
 .photoandicons{
 
@@ -191,7 +185,7 @@ a.more.back, a.more.nohov{
     text-align: center;
     float:none !important;
 display: flex !important;
-
+padding-top:-1%;
 
     }
 
