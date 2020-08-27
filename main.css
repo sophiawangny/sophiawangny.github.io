@@ -121,7 +121,7 @@ body {
 
  
 h1, .ml16{
-    font-family: lato;
+    font-family:  lato, Avenir, nunito-sans;
     font-size: 5rem;
     color: #deeaf5; /*#2E4055*/
     cursor: default; 
@@ -145,7 +145,7 @@ h2{
     z-index: -100000 !important;
     overflow: hidden !important;
  
-    font-family: lato;
+    font-family: lato, Avenir, nunito-sans;
     font-size: 5rem;
     color: #73a0d8; /*not doing anything rn, was gonne be this with opacity 40%*/
     cursor: default; 
@@ -175,7 +175,7 @@ h2{
     color: #3a4e66;/*#3a4e66  #314761white*/ 
 
 
-   font-family: lato, myriad pro;
+   font-family: lato, Avenir, myriad pro;
     margin-right: 2%;
     transition: .3s ease;
     font-size: 1rem !important;
@@ -188,7 +188,7 @@ h2{
 }
 
 h4{
-    font-family: lato;
+    font-family:lato, Avenir, nunito-sans;
     color:#deeaf5;
     font-size: .99rem;
     font-weight: 270;
@@ -205,7 +205,7 @@ h4{
   padding-bottom:7%;
 }
 body{
-    background-color: rgb(6, 22, 32);/*rgb(7, 29, 43) #314761  #455e7e rgb(2, 21, 32) rgb(1, 14, 22)*/
+    background-color: rgb(6, 22, 32);/*  rgb(6, 22, 32) rgb(7, 29, 43) #314761  #455e7e rgb(2, 21, 32) rgb(1, 14, 22)*/
  
 }
 
@@ -245,7 +245,7 @@ div.block:hover:before{
    align-items:center;
   
 
-    font-family:  lato, nunito-sans, PT Sans, sans-serif, Helvetica;
+    font-family:  lato,  Avenir, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-weight:bold;
      font-size: 1.7rem;
     
@@ -285,7 +285,7 @@ text-shadow: none;
 }
 #forumone:hover:before{
 
-    content:"Forum One" ; 
+    content:"Development @ Forum One" ; 
     background:#ec2c39 !important;
 }
 

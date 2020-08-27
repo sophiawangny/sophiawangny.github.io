@@ -8,7 +8,16 @@ p{
 
 }
 
-
+h5{
+    line-height: 2.3rem;
+    font-family: lato;
+    font-size: 1.5rem;
+    color:#deeaf5; /* black, #1D1622*/
+    font-weight:250;
+    /* margin-right: 10%;
+    margin-left: 10%; */
+    text-align:left;
+}
   
 .ml16 .letter {
 
@@ -44,9 +53,25 @@ font-size: 2.8rem;
 transition: .5s ease;
 margin-right:3%;
 }
+a.more.description{
+    margin-right:0%;
+    padding: .59rem !important;  
+    font-size: .9rem !important;
+}
+
+a.more.description:hover{
+    color: orange !important;
+    background: transparent;
+       border-color: orange !important;
+
+       transition: none;
+   
+}
+
+
 
 a:hover{
-color:   ; /* #455E7E  #f6b93b*/
+color:   orange; /* #455E7E  #f6b93b*/
 cursor: default;
 }
 #linked:hover{
@@ -119,6 +144,7 @@ line-height: 1.9rem;
     font-size: 1.3rem;
     color:#deeaf5; /* black, #1D1622*/
     font-weight:270;
+
 
 }
 
