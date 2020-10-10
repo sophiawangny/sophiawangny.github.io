@@ -14,6 +14,12 @@
 body { 
    
 } 
+
+@media all and (max-width: 10003px) {  /*test*/
+
+    
+
+}
   
 @keyframes fadeInAnimation { 
     0% { 
@@ -172,7 +178,7 @@ h2{
 
 }
 #indbuttons{
-    color: #3a4e66;/*#3a4e66  #314761white*/ 
+    color: #678bb9;/*44658d #3a4e66  #314761white*/ 
 
 
    font-family: lato, Avenir, myriad pro;

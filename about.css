@@ -48,7 +48,7 @@ h5{
 a{
 
 text-decoration: none;
-color: #2E4055;
+color: #44658d /*#2E4055*/;
 font-size: 2.8rem;
 transition: .5s ease;
 margin-right:3%;
@@ -166,14 +166,76 @@ text-align:left;
 }
 
 .pickandp2{
-    margin-left:6%;
-    margin-right:6%;
+    margin-left:5%;
+    margin-right:5%;
     display: flex !important;
-    margin-top:4%;
+    margin-top:12% !important;
+    margin-bottom:4% !important;
 }
 
 .facts{
     margin-left:6%;margin-right:6%;
+}
+@media all and (max-width: 1035px) {   
+
+    .secondp{
+        text-align: center;
+        float:none !important;
+    display: flex !important;
+    margin-top:-23% !important;
+    
+        }
+    
+     #secondpic{
+     width:100%;
+        max-width:400px;
+        height:auto;
+        float: none !important;
+        text-align: center !important;
+        margin-bottom: 4% !important;
+        margin-top: 4% !important;
+    
+    
+    }
+    
+    .pickandp2{
+        margin-left: 6% !important;
+    
+        margin-right: 6% !important;
+        display: block !important;
+    }
+    
+}
+@media all and (max-width: 913px) {  
+    
+    .secondp{
+        text-align: center;
+        float:none !important;
+    display: flex !important;
+    margin-top:-23% !important;
+    
+        }
+    
+     #secondpic{
+     width:100%;
+        max-width:800px;
+        height:auto;
+        float: none !important;
+        text-align: center !important;
+        margin-bottom: 4% !important;
+        margin-top: 4% !important;
+    
+    
+    }
+    
+    .pickandp2{
+        margin-left: 6% !important;
+    
+        margin-right: 6% !important;
+        display: block !important;
+    }
+
+
 }
 
 @media all and (max-width: 450px) { 
