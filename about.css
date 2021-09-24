@@ -48,7 +48,7 @@ h5{
 a{
 
 text-decoration: none;
-color: #44658d /*#2E4055*/;
+color: #678bb9 /*#2E4055*/;
 font-size: 2.8rem;
 transition: .5s ease;
 margin-right:3%;
@@ -60,9 +60,9 @@ a.more.description{
 }
 
 a.more.description:hover{
-    color: orange !important;
+    color: #c1eba7 !important;
     background: transparent;
-       border-color: orange !important;
+       border-color: #c1eba7;
 
        transition: none;
    
@@ -71,26 +71,26 @@ a.more.description:hover{
 
 
 a:hover{
-color:   orange; /* #455E7E  #f6b93b*/
+color:   #a5a5a5; /* #455E7E  #f6b93b*/
 cursor: default;
 }
 #linked:hover{
-    color:  #1d57af ;
+    color:  #2073f0 ;
 }
 
 #insta:hover{
-    color:  #c0b9fd ;
+    color:  #d3ceff ;
 }
 
 #codepen:hover{
-    color:   #73a0d8;
+    color:   #c8e1ff;
 }
 #mail:hover{
-    color:  #c3de8d;
+    color:  #ffe677;
 }
 
 a.more.back{
-    font-size: .75rem !important;
+ 
     padding: .45rem !important;
     margin-right:.5%;
     text-align: center !important;
@@ -98,16 +98,16 @@ a.more.back{
 
 }
 a.more.nohov{
-    font-size: .75rem !important;
+    border-radius: 16px !important;
     padding: .45rem !important;
     margin-right:.5%;
     text-align: center !important;
     margin-bottom:1%;
 }
 a.more.nohov:hover{
-    color: orange !important;
+    color: #c1eba7!important;
     background: transparent;
-       border-color: orange !important;
+       border-color: #c1eba7!important;
 
        transition: none;
    
@@ -115,16 +115,16 @@ a.more.nohov:hover{
 
 a.more{
 font-family:lato;
-    font-size: .8rem;
+    font-size: .9rem;
     margin-right:none;
-border-radius: 25px;
-    color: orange !important;
 
+    color: #c1eba7;
+    border-radius: 25px;
 text-decoration: none;
 background: transparent;
 
 padding: .8rem;
-border: .07rem solid orange !important;
+border: .07rem solid #c1eba7!important;
 display: inline-block;
 transition: all 0.4s ease 0s;
 
@@ -132,8 +132,8 @@ transition: all 0.4s ease 0s;
 
 a.more:hover{
  color: rgb(6, 22, 32) !important;
-background: orange;
-border-color: orange !important;
+background: #c1eba7;
+border-color: #c1eba7!important;
 transition: all 0.4s ease 0s;
 
 }
@@ -143,7 +143,7 @@ line-height: 1.9rem;
     font-family: lato;
     font-size: 1.3rem;
     color:#deeaf5; /* black, #1D1622*/
-    font-weight:270;
+    font-weight:100;
 
 
 }
@@ -175,6 +175,17 @@ text-align:left;
 
 .facts{
     margin-left:6%;margin-right:6%;
+}
+
+#scroll{
+
+    color:rgb(6, 22, 32);
+    background-color: #c1eba7;
+}
+#scroll:hover{
+    background-color:#FB363E;
+    color:white !important;
+    border-color: #FB363E !important;
 }
 @media all and (max-width: 1035px) {   
 
@@ -263,7 +274,10 @@ a.more, #more{
     text-align: center !important;
     float: none !important;
     display: block !important;
+    
 }
+
+
 a.more.back, a.more.nohov{
 
     padding: .35rem !important;
