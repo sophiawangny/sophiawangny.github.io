@@ -183,7 +183,7 @@ h2{
     color: #678bb9;/*44658d #3a4e66  #314761white*/ 
 
 
-   font-family: lato, Avenir, myriad pro;
+   font-family: Avenir, myriad pro,lato;
     margin-right: 2%;
     transition: .3s ease;
     font-size: 1rem !important;
@@ -196,7 +196,7 @@ h2{
 }
 
 h4{
-    font-family:lato, Avenir, nunito-sans;
+    font-family:Avenir, myriad pro,lato;
     color:#deeaf5;
     font-size: .99rem;
     font-weight: 270;
@@ -253,7 +253,7 @@ div.block:hover:before{
    align-items:center;
   
 
-    font-family:  lato,  Avenir, nunito-sans, PT Sans, sans-serif, Helvetica;
+    font-family:   Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-weight:bold;
      font-size: 1.7rem;
     

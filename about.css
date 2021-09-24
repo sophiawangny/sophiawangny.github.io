@@ -1,6 +1,6 @@
 p{
 
-    font-family: lato;
+    font-family:  Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-size: 1.9rem;
     color: #deeaf5;
     ; /*#1D1622*/
@@ -10,7 +10,7 @@ p{
 
 h5{
     line-height: 2.3rem;
-    font-family: lato;
+    font-family:  Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-size: 1.5rem;
     color:#deeaf5; /* black, #1D1622*/
     font-weight:250;
@@ -114,7 +114,7 @@ a.more.nohov:hover{
 }
 
 a.more{
-font-family:lato;
+font-family: Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-size: .9rem;
     margin-right:none;
 
@@ -140,7 +140,7 @@ transition: all 0.4s ease 0s;
 
 h3{
 line-height: 1.9rem;
-    font-family: lato;
+    font-family:  Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-size: 1.3rem;
     color:#deeaf5; /* black, #1D1622*/
     font-weight:100;
