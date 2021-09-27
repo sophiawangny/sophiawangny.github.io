@@ -190,7 +190,7 @@ text-align:left;
 @media all and (max-width: 1035px) {   
 
     .secondp{
-        text-align: center;
+        
         float:none !important;
     display: flex !important;
     margin-top:-23% !important;
@@ -220,7 +220,7 @@ text-align:left;
 @media all and (max-width: 913px) {  
     
     .secondp{
-        text-align: center;
+     
         float:none !important;
     display: flex !important;
     margin-top:-23% !important;
@@ -288,7 +288,7 @@ a.more.back, a.more.nohov{
 
 
 .secondp{
-    text-align: center;
+   
     float:none !important;
 display: flex !important;
 margin-top:-10% !important;
@@ -358,7 +358,7 @@ margin-top:-10% !important;
 
 
 .secondp{
-    text-align: center;
+    
     float:none !important;
 display: flex !important;
 margin-top:-10% !important;
