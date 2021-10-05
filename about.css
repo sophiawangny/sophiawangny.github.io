@@ -9,9 +9,10 @@ p{
 }
 
 h5{
-    line-height: 2.3rem;
+    padding-top:0%;
+    line-height: 1.9rem;
     font-family:  Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color:#deeaf5; /* black, #1D1622*/
     font-weight:250;
     /* margin-right: 10%;
