@@ -278,6 +278,33 @@ text-shadow: none;
 
 /*bruh*/
 
+
+#ell, #ell:hover:before{
+    background-image:url("images/ELLCONNECT.png");
+
+}
+#ell:hover:before{
+    content:"ELLConnect" ; 
+    background:  #ffffff   !important; 
+    color:rgb(6, 22, 32);
+}
+
+
+
+#sr, #sr:hover:before{
+    background-image:url("images/scatteringresources.png");
+
+
+}
+#sr:hover:before{
+    content:"Website Redesign for Scattering Resources" ; 
+    background:  #FFE5E2   !important; 
+    color:rgb(6, 22, 32);
+}
+
+
+
+
 #codestellation, #codestellation:hover:before{
     background-image:url("images/code.png");
 
