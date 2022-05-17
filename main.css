@@ -240,9 +240,11 @@ div.block, div.block:hover:before{
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+
   color: white;
   display: inline-block;
-  /*background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
        
 }
 div.block:hover:before{
@@ -254,7 +256,7 @@ div.block:hover:before{
    display:flex;
    justify-content:center;
    align-items:center;
-  
+   background-repeat: no-repeat;
 
     font-family:   Avenir, myriad pro, lato, nunito-sans, PT Sans, sans-serif, Helvetica;
     font-weight:bold;
@@ -273,7 +275,9 @@ div.block:hover:before{
 
 }
 
-@media all and (max-width: 850px) { 
+
+
+@media all and (max-width: 850px) {  /*front page*/
 
     .ml16{
 
@@ -294,6 +298,19 @@ div.block:hover:before{
 
 }
 
+@media all and (max-width: 500px) {  /*front page*/
+
+    .ml16{
+
+        font-size: 2.2rem;
+    }
+
+div.block:hover:before{
+    content:none !important;
+    background: none !important;
+}
+
+}
 
 
 
