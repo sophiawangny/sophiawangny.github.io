@@ -9,7 +9,31 @@
     left: 0;
 }
 
+.whatwhens{
+    float:right;
+    padding-left:4%;
+}
+/* .introparagraph{
+    margin-top:0%;
+    display: flex;
+} */
+.problemetc{
+   /* margin-bottom:-5%; */
+    display: flex;
+    margin-top:0%;
+}
+.keyfeatures{
+    /* margin-bottom:-5%; */
+     display: flex;
+     margin-top:0%;
+ }
+ .khalidcoverimg{
+    width:100%; 
+    max-width: 525px ; 
+    height:auto;
+    text-align: right !important;
 
+ }
 
 body { 
    
@@ -277,12 +301,17 @@ div.block:hover:before{
 
 
 
-@media all and (max-width: 850px) {  /*front page*/
+@media all and (max-width: 850px) {  
 
     .ml16{
 
         font-size: 4rem;
     }
+    .keyfeatures{
+        display:block;
+    }
+
+     /*^^ front page small screen*/
 
 
 }
@@ -294,21 +323,70 @@ div.block:hover:before{
 
         font-size: 3rem;
     }
+    div.block:hover:before{
+        content:none !important;
+        background: none !important;
+    }
+    .whatwhens{
+        float:none;
+        margin-left:-1rem;
+        padding-left:none;
+        padding-top:1rem;
+        padding-bottom: 1rem;
+    }
+    .problemetc{
+        display:block;
+    }
 
+    .khalidcoverimg{
+ 
+        width:100%; 
+        height:auto;
+        text-align: right !important;
+        max-width: 600px;
+     }
+     
+
+ /*^^ front page small screen*/
 
 }
 
-@media all and (max-width: 500px) {  /*front page*/
+@media all and (max-width: 500px) {   /*smallest screen*/
 
     .ml16{
 
         font-size: 2.2rem;
     }
 
-div.block:hover:before{
-    content:none !important;
-    background: none !important;
-}
+    div.block:hover:before{
+        content:none !important;
+        background: none !important;
+    }
+ /*^^ front page smallest screen*/
+
+
+    .whatwhens{
+        float:none;
+        margin-left:-1rem;
+        padding-left:none;
+        padding-top:1rem;
+        padding-bottom: 1rem;
+    }
+    .problemetc{
+        display:block;
+    }
+    .khalidcoverimg{
+ 
+        width:100%; 
+        height:auto;
+        text-align: right !important;
+        max-width: 590px;
+     }
+  /*  h5{
+        text-align: center;
+     
+    }*/
+
 
 }
 
