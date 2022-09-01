@@ -8,6 +8,16 @@
     bottom: 0;
     left: 0;
 }
+.morepad{
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+video {
+    max-width: 49.5%;
+    height: auto;
+  }
 
 .whatwhens{
     float:right;
@@ -312,7 +322,17 @@ div.block:hover:before{
     }
 
      /*^^ front page small screen*/
+     video {
+       
+        height: auto;
+        margin-top:-3rem;
+      }
+      .morepad{
 
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    
 
 }
 
@@ -345,14 +365,26 @@ div.block:hover:before{
         text-align: right !important;
         max-width: 600px;
      }
-     
+     video {
+        max-width: 100%;
+        height: auto;
+        margin-top:-3rem;
+      }
+      .morepad{
+
+        padding-left: 5% ;
+        padding-right: 5%;
+    }
+    
 
  /*^^ front page small screen*/
 
 }
 
 @media all and (max-width: 500px) {   /*smallest screen*/
-
+    .letter1, .letter2, .letter3, .letter4, .letter5, .letter6{
+        font-size: 1.6rem;
+    }
     .ml16{
 
         font-size: 2.2rem;
@@ -386,6 +418,17 @@ div.block:hover:before{
         text-align: center;
      
     }*/
+    video {
+        margin-top:-3rem;
+        max-width: 100%;
+        height: auto;
+      }
+.morepad{
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+    
 
 
 }
