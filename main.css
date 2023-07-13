@@ -520,6 +520,18 @@ text-shadow: none;
     
 }
 
+#c1, #c1:hover:before{
+    background-image:url("images/c1block.png");
+
+}
+#c1:hover:before{
+    content:"Experience Design @ Capital One" ; 
+    color:rgb(0, 0, 0); /*#CF462C */
+    background: #ffffff   !important; /* #ffbc50    #766ba6*/
+    
+}
+
+
 
 
 
