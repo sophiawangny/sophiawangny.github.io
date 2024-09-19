@@ -1,134 +1,85 @@
-<!DOCTYPE html>
+
+<html> 
 <head>
 
-    <link rel="stylesheet" href="https://use.typekit.net/lzt0srz.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/9a73796175.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <title>about me - sophia wang</title>
-    <link rel="shortcut icon" href="images/favicon.png">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>sophia wang</title>
+    <link rel="shortcut icon" href="images/wukong.png">
 
-<title>sophia wang</title>
-<link rel="shortcut icon" href="images/favicon.png">
-<meta property="og:image" content="preview.png">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="js/playsong.js"></script>
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <audio id="song" src="audio.mp3"  type="audio/mp3"   autoplay loop> </audio>
+
 </head>
+
 <body>
+
+<div >
+
+<span style="display: inline;"> 
+<a href="index.html" style="font-size:x-large; display: inline"> ଘ(੭ˊᵕˋ)੭* ੈ✩‧˚✧˖° sophia 悦 wang ✩‧₊˚౨ৎ˚₊✩‧ </a>
+</span>
+
+
+
+    <span style="display: inline; float: right;padding-top: .7rem;">
+        <a href="index.html"> home</a>
+        &nbsp;
+        <a href="other pages/design.html"> ux portfolio</a>
+        &nbsp;
+        <a href="other pages/photography.html"> photography</a>
+        &nbsp;
+        <a href="other pages/other.html"> other</a>
+        &nbsp;
+        <a href="other pages/about.html"> about me</a>
+        &nbsp;
+        <button  type="submit" class="button" id="musicbutton" value="True" onclick="togglePlayPause()"><span> music: off <i class="fas fa-volume-mute"></i></span></button>
+        </span>
+
+</div>
+
+
+
+
+
+    <div id="intro"> 
+        <img src="images/wukong.png" style="width:100%; max-width: 50%; height:auto;"></img>
+
+<h2>  Born & based in nyc </h2>
+<h2>Art, design and spaces that tell stories, delight people and build belonging  </h2>
+
+
+
+
+
+  <!-- *˖  ✩‧ <a href="https://www.linkedin.com/in/sophia-wang-nyc/" > linkedin</a><br/>  -->
+  <!--  ˚✧ <a href="index.html"> piece of paper</a> <br/> -->
+  ✩‧ <a href="index.html">email</a> sophiayue718@gmail.com <br/> 
+  ˚✧ <a href="https://www.instagram.com/sophiayuewang/"> instagram</a> @sophiayuewang <br/>
    
- <!-- <div align="right"> <i><button href="https://google.com/" class="fas fa-bars"  target=blank> </button> </i></div> -->
-
-  <!--- <img id="front" src="images/Asset 15.png"></id></img>  --> 
-
-
-   
-
-
-
-  <style> 
-    div.block {         
-        animation: fadeInAnimation ease 3s; 
-        animation-iteration-count: 1; 
-        animation-fill-mode: forwards; 
-     
-        
-    } 
-    @keyframes fadeInAnimation { 
-        0% { 
-            opacity: 0; 
-        } 
-        100% { 
-            opacity: 1; 
-        } 
-    } 
-</style> 
-
- <div style="text-align: center; margin-top:5%; ">  <!---display: inline;-->
-    <!-- <h2 >   
-         <span style="color:orange">S</span>
-            <span style="color:#fd4352">O</span> 
-            <span style="color:#73a0d8">P</span> 
-            <span style="color:#c3de8d">H</span>
-            <span style=" color: #7bcdff">I</span>
-            <span style="color: #6a63a1">A</span>
-            &nbsp
-            <span style="color:#c3de8d">W</span>
-            <span style="color:#fd4352">A</span>
-            <span style="color:orange">N</span>
-            <span style="color: #6a63a1">G</span>
-
-    </h2>     -->  
-
-
-        <h1 class="ml16" style="  word-wrap: break-word;margin-bottom: -2%;">  
-
-            
-            <span class="letter1">S</span>  
-            <span class="letter3">O</span>  
-            <span class="letter6">P</span>
-            <span class="letter2">H</span>
-            <span class="letter5">I</span> 
-            <span class="letter4">A</span> 
-            &nbsp
-            <span class="letter2">W</span> 
-            <span class="letter3">A</span>
-            <span class="letter1">N</span> 
-            <span class="letter4">G</span> 
-            
-        </h1>
-      
-
-</div> 
-
-<h3 style="text-align: center;">Experience Designer @ Capital One</h3>
+</div>
 
 
 
 
-<div style="text-align: center;">
-    <img src="images/frontlogo.png" style="width:100%; max-width: 40%; height:auto; margin-top:2%;margin-bottom: 8%;"></img>
-
-</div> 
-
-
-<div style="margin-top:0%;text-align: center;">   <!---resume and contact buttons --> 
-
-   
-    <i><a href="https://www.linkedin.com/in/sophia-wang-nyc/" class="fab fa-linkedin-square" id="linked" target="blank"></a></i>
-   <i><a href="https://www.instagram.com/sophia.wangg/" class="fab fa-instagram" id="insta" target="blank"></a></i>
-   <!--- <i><a href="https://www.instagram.com/brandeis_bitmap/" class="fab fa-github-square" target="blank"></a></i> -->
-   
-   <!-- <i><a href="mailto:sophiaw@brandeis.edu" class="fab fa-spotify" target="blank"></a> </i> -->
-   <i><a href="mailto:sophiaw@brandeis.edu" class="fab fa-telegram-plane" id="mail" target="blank"></a> </i>
-   
-   </div>   <!---end of resume and contact buttons --> 
-   
 
 
 
-
-<div style="text-align: center;padding-top: 8%;">
-
-    <h4>
-    
-      <br/>
-      © sophia wang 2023
-  
-  </h4>
-  </div>
-    
-   
-
-
-<!--- <div id="bottompad">       </id></div>  -->
 
 </body>
 
-<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101294907);</script>
-<script async src="//static.getclicky.com/js"></script>
-<script src="anime.min.js"></script>
-<script src="main.js"></script>
+<footer>  © sophia wang 2024</footer>
+
+
+
 
 </html>
