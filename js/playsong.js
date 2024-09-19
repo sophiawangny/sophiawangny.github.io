@@ -1,7 +1,7 @@
 function togglePlayPause() {
     // Get the audio element by its ID
     var song = document.getElementById("song");
-
+    song.pause();
     // Toggle play/pause of the audio
     if (song.paused) {
         song.play();
