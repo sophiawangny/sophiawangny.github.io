@@ -95,14 +95,43 @@ footer{
 }
 
 @media all and (max-width: 800px) { 
-
+  
     #intro{
-        padding-left:10rem; 
-        padding-right: 10rem;
+        padding-left:8rem; 
+        padding-right: 8rem;
         padding-top:6rem;
     }
     h2{
         font-size: x-large;
     }
+    #musicbutton{
+        visibility: hidden;
+    }
+}
 
+@media all and (max-width: 500px) { 
+
+    #intro{
+        padding-left:2rem; 
+        padding-right: 2rem;
+        padding-top:6rem;
+    }
+    h2{
+        font-size: small;
+    }
+    a{
+        font-size: small;
+    }
+
+    button{
+        font-size: small;
+        border: 1px solid rgb(251, 223, 35);
+
+    }
+    footer{
+        padding-top: 58%;
+    }
+    #musicbutton{
+        visibility: hidden;
+    }
 }
